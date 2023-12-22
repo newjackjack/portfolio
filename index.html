@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" /> 
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script> 
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script> 
+    <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script> 
+</head>
+<body>
+    <div class="container">
+        <div class="top_bar container-fluid"> 
+            <div class="name">Nien-Yuan(Jack), Chin</div>
+            <ul class="top_right_row">
+                <li><a href="#about_me">About me</a></li>
+                <li><a href="#edu_container">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="https://github.com/newjackjack" class="github_link">Github</a></li>
+            </ul>
+        </div>
+        <div class="projects_outlook contaianer border-secondary">
+            <div class="card" style="width: 25rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Project 1</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Business Website</h6>
+                  <p class="card-text">Built a platform that shows the services and inventory of my Dad's car selling business</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident quo beatae veniam reprehenderit minus nisi odio qui, deleniti eos magni distinctio quaerat tempore rem! Corrupti exercitationem iure commodi quod sed?</p>
+                  <a href="#project_1" class="card-link">Card link</a>
+                </div>
+            </div>
+            <div class="card" style="width: 25rem;">
+                <div class="card-body">
+                  <h5 class="card-title">project 2</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">project_subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident quo beatae veniam reprehenderit minus nisi odio qui, deleniti eos magni distinctio quaerat tempore rem! Corrupti exercitationem iure commodi quod sed?</p>
+                  <a href="#project_2" class="card-link">Card link</a>
+                </div>
+            </div>
+            <div class="card" style="width: 25rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Project 3</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Project subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <img src="" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident quo beatae veniam reprehenderit minus nisi odio qui, deleniti eos magni distinctio quaerat tempore rem! Corrupti exercitationem iure commodi quod sed?</p>
+                  <a href="#project_3" class="card-link">Card link</a>
+                </div>
+            </div>
+        </div>
+        <!-- About me -->
+        <div class="about_me" id="about_me">
+            <h1 class="name_tag">About me</h1>
+            <div class="pic_column">
+                <img src="./img/jack.png" alt="image of me" class="jack">
+                <div class="self_intro">
+                    <p>This is Nien-Yuan(Jack), Chin. I came from Taiwan and now live in the Bay area, California.</p>
+                    <p>I was originally from Chemistry background and recently just earned my master's degree in Materials Science and Engineering at UCLA.</p>
+                    <p>Now, I am on my journey to become a Full Stack Engineer.</p>
+                    <p>Transitioning from science background to engineering enables me to become a self-motivated engineer because I love to find out how thing works and why it works</p>
+                    <p>In addition, I love to collaborate with people to tackle problems because I belive team work makes the dream work!</p>
+                    <div class="habbits_container">
+                        <ul class="habbits">Habbits:
+                            <li>Traveling 🏝️</li>
+                            <li>Kayaking 🛶</li>
+                            <li>Cooking 🍽️</li>
+                        </ul>
+                        <img src="./img/road_trip.PNG" alt="image of road trip direction" class="road_trip">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Education -->
+        <div class="edu_container" id="edu_container">
+            <div class="edu">
+                <div class="edu_left ">
+                    <p class="program">Software Development</p>
+                    <p class="institue">Coding Dojo Bootcamp</p>
+                </div>
+                <div class="edu_right">
+                    <p class="time">Dec. 2023 - present</p>
+                    <div class="progress progress-striped active"> 
+                        <div class="progress-bar progress-bar-success"
+                            style="width: 0%"> 
+                        </div> 
+                    </div> 
+                    <img src="./img/codingdojo.png" alt="logo of Coding Dojo" class="edu_logo dojo">
+                </div>
+            </div>
+            <div class="edu">
+                <div class="edu_left ">
+                    <p class="program">M.Sc in Materials Science and Engineering</p>
+                    <p class="institue">University of California Los Angeles</p>
+                </div>
+                <div class="edu_right_ucla">                    
+                    <p class="time">2021-2023</p>
+                    <img src="./img/ucla.jpg" alt="logo of UCLA" class="edu_logo ucla">
+                </div>
+            </div>
+            <div class="edu">
+                <div class="edu_left">
+                    <p class="program">M.Sc in Textile Chemistry</p>
+                    <p class="institue">North Carolina State University</p>
+                </div>
+                <div class="edu_right_ncsu">
+                    <p class="time">2018-2020</p>
+                    <img src="./img/ncsu.jpg" alt="logo of NCSU" class="edu_logo ncsu">
+                </div>
+            </div>  
+            <div class="edu">
+                <div class="edu_left">
+                    <p class="program">B.Sc in Chemistry</p>
+                    <p class="institue">National Cheng Kung University</p>
+                </div>
+                <div class="edu_right_ncku">
+                    <p class="time">2013-2017</p>
+                    <img src="./img/National_Cheng_Kung_University_logo.svg.png" alt="logo of NCKU" class="edu_logo ncku">
+                </div>
+            </div> 
+        </div>
+        <!-- Experience -->
+        <div class="exp_container" id="experience">
+            <div class="exp_bar">Programming Experiences</div>
+            <div class="project_1" id="project_1"><!-- Project_1 -->
+                <p>Project_1</p>
+                
+            </div>
+            <div class="project_2" id="project_2"><!-- Project_2 -->
+
+            </div>
+            <div class="project_3" id="project_3"><!-- Project_3 -->
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script> 
+        // Set the width to animate the progress bar 
+        // Along with time duration in milliseconds 
+        $(".progress-bar").animate({ 
+                width: "30%", 
+        }, 2500); 
+    </script> 
+    </script> 
+    <script src="script.js"></script>
+</body>
+</html>

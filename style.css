@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.top_bar{
+    background-color:lightgrey;
+    display:flex;
+    justify-content: space-between;
+}
+.name{
+    margin-top:1vh;
+    font-weight: 200;
+    font-size: 2em;
+}
+.top_right_row{
+    margin-top:3vh;
+    list-style-type:none;
+    display:flex;
+    align-items: center;
+}
+.top_right_row li{
+    margin-left:4vw;
+}
+.projects_outlook{
+    display:flex;
+    justify-content: space-between;
+    margin-top:4vh;
+}
+.card{
+    justify-content: center;
+}
+.card-body{
+    margin:2vh;
+}
+/* ****************** About me ****************** */
+.jack{
+    height: 40vh;
+}
+.about_me{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 4vh;
+}
+.name_tag{
+    margin:2vw;
+}
+.pic_column{
+    display:flex;
+}
+.jack{
+    margin:2vw;
+    height:60vh;
+}
+.self_intro{
+    margin:3vh 2vw 2vh 0vw;
+    align-items: center;
+}
+.habbits_container{
+    margin-top:4vh;
+    display: flex;
+    justify-content: space-between;
+}
+.habbits{
+    list-style-type:none;
+    padding:0vw;
+    align-items: center;
+}
+.habbits li{
+    margin-top: 1vh;
+}
+.road_trip{
+    height: 28vh;
+    margin-right: 6vw;
+}
+
+/* ****************** Edu ****************** */
+.edu_container{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top:4vh;
+}
+.edu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:2vh;
+}
+.edu_left{
+    margin: 2vw;
+    align-items: center;
+}
+.program{
+    margin-bottom: 4vh;
+}
+.edu_right{
+    margin: 2vw;
+    align-items: flex-end;
+}
+.time{
+   text-align: center;
+}
+.dojo{
+    margin-left: 2vw;
+    height:8vh;
+}
+.edu_right_ucla{
+    margin: 2vh 1vw 1vh 2vw;
+    align-items: center;
+}
+.ucla{
+    /* margin-left: 4vw; */
+    height:12vh;
+}
+.edu_right_ncsu{
+    margin: 2vh 3.5vw 1vh 2vw;
+    align-items: center;
+}
+.ncsu{
+    height:5vh;
+    margin-top:1vh;
+}
+.edu_right_ncku{
+    margin: 2vh 4vw 1vh 2vw;
+    align-items: center;
+}
+.ncku{
+    height:6vh;
+    margin-left:1vw;
+    align-items: center;
+}
+/* *********** Experiences *************** */
