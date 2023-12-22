@@ -22,6 +22,11 @@
 .top_right_row li{
     margin-left:4vw;
 }
+.top_right_list a{
+    color:black;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .projects_outlook{
     display:flex;
     justify-content: space-between;
@@ -129,3 +134,11 @@
     align-items: center;
 }
 /* *********** Experiences *************** */
+.exp_container{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top:4vh;
+}
+.exp_bar{
+    
+}
