@@ -140,5 +140,16 @@
     margin-top:4vh;
 }
 .exp_bar{
-    
+    margin:2vw;
+}
+.project_1{
+    display:flex;
+    justify-content: space-between;
+}
+.project_description{
+    margin:2vw;
+}
+.screenshot_doubleB{
+    margin:2vw;
+    height: 50vh;
 }
